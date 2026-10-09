@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>한식 Hansik · Sabores de Corea del Sur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#inicio" class="logo">한식</a>
+    <nav>
+      <a href="#platos">Platos</a>
+      <a href="#videos">Videos</a>
+      <a href="#audios">Audios</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="petals" aria-hidden="true"></div>
+    <p class="hero-kicker">Gastronomía de Corea del Sur</p>
+    <h1 class="title" id="title" aria-label="Sabores de Corea">Sabores de Corea</h1>
+    <p class="rotator">Hoy descubrimos: <span id="rotator">김치</span></p>
+    <p class="hero-text">Fermentados, brasas y salsas picantes: un recorrido por seis platos que definen la cocina coreana.</p>
+    <a href="#platos" class="btn">Ver los platos</a>
+  </section>
+
+  <section id="platos" class="section">
+    <h2 class="section-title">Platos que debes conocer</h2>
+    <p class="section-sub">Pulsa «Cambiar imagen» en cada tarjeta para poner tu propia foto.</p>
+    <div class="grid" id="dishes"></div>
+  </section>
+
+  <section id="videos" class="section dark">
+    <h2 class="section-title">Videos</h2>
+    <p class="section-sub">Sube un video desde tu equipo o pega un enlace directo (.mp4).</p>
+    <div class="grid" id="videoGrid"></div>
+  </section>
+
+  <section id="audios" class="section">
+    <h2 class="section-title">Audios</h2>
+    <p class="section-sub">Los audios de ejemplo son melodías generadas en tu navegador. Reemplázalos con los tuyos.</p>
+    <div class="grid" id="audioGrid"></div>
+  </section>
+
+  <footer class="footer">
+    <p>맛있게 드세요 · ¡Buen provecho!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
