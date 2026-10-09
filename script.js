@@ -1,6 +1,6 @@
 /* ===== Datos ===== */
 const dishes = [
-  { name: "Kimchi", ko: "김치", emoji: "🥬", c: ["#ffd1e5", "#f9a8d4"],
+  { name: "Kimchi", ko: "김치", img: "./img/imagen1.png", c: ["#ffd1e5", "#f9a8d4"],
     text: "Col napa fermentada con gochugaru, ajo y jengibre. Es el acompañamiento esencial de casi toda comida coreana." },
   { name: "Bibimbap", ko: "비빔밥", emoji: "🍚", c: ["#ffe3ef", "#d8b4fe"],
     text: "Arroz con verduras salteadas, carne, huevo y salsa gochujang. Se mezcla todo antes de comer." },
